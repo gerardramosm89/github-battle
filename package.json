@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "production": "webpack -p",
+    "start": "webpack-dev-server"
   },
   "author": "",
   "license": "ISC",
@@ -17,7 +18,9 @@
     "webpack-dev-server": "^1.16.2"
   },
   "dependencies": {
+    "raven-js": "^3.9.2",
     "react": "^15.4.2",
-    "react-dom": "^15.4.2"
+    "react-dom": "^15.4.2",
+    "react-router": "^2.0.0-rc5"
   }
 }
